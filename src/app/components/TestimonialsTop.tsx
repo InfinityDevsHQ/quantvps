@@ -4,7 +4,7 @@ import React from "react"
 
 export default function TestimonialsTop() {
   return (
-    <div className="mx-auto space-y-4 lg:block pt-1 hidden">
+    <div className="mx-auto space-y-4 lg:block pt-1 overflow-hidden">
       <div className="flex gap-4 justify-evenly">
         <div className="highlight-card flex items-center gap-2 whitespace-nowrap rounded-lg border border-black/5 bg-black/5 py-1 pl-2 pr-3 font-bold text-card-foreground shadow">
           <Image
@@ -47,8 +47,7 @@ export default function TestimonialsTop() {
           />
           <div>
             <div className="text-sm font-bold text-card-foreground">
-              {`If there's anyone I have confidence in improving my
-                     SEO, it's MagicSpace.`}
+              {`If there's anyone I have confidence in, it's NinjaTraders.`}
             </div>
             <div className="flex items-center gap-1 text-xs font-bold text-card-foreground">
               <div className="flex items-center">

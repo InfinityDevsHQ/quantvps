@@ -8,6 +8,8 @@ import ServicesDropdown from "./components/ServicesDropdown"
 import Features from "./components/Features"
 import NinjaTrader from "./components/NinjaTrader"
 import RelatedProducts from "./components/RelatedProducts"
+import FAQs from "./components/FAQs"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -21,8 +23,10 @@ export default function Home() {
         <Testimonials />
         <ServicesDropdown />
         <Features />
+        <FAQs />
         <NinjaTrader />
         <RelatedProducts />
+        <Footer />
       </main>
     </>
   )
