@@ -5,9 +5,12 @@ import React from "react"
 export default function Testimonials() {
   return (
     <div className="sm:px-8">
-      <div className="mx-auto w-full max-w-7xl lg:px-8">
+      <div className="mx-auto w-full max-w-7xl lg:px-8 py-4 md:py-12">
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
+            <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
+              Customer Reviews of QuantVPS NinjaTrader VPS Servers
+            </h2>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               <div className="rounded-md p-4 text-card-foreground shadow dark:bg-card">
                 <cite className="mb-2 flex items-center not-italic">
