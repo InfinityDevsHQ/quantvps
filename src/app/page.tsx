@@ -10,11 +10,13 @@ import NinjaTrader from "./components/NinjaTrader"
 import RelatedProducts from "./components/RelatedProducts"
 import FAQs from "./components/FAQs"
 import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
 
 export default function Home() {
   return (
     <>
       <main className="flex-auto">
+        <Navbar />
         <TestimonialsTop />
         <Hero />
         <Pricing />
