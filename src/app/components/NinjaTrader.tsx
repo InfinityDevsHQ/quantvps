@@ -1,4 +1,4 @@
-import { CheckIcon } from "@heroicons/react/20/solid"
+import { CheckCircleIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
 import React from "react"
 
@@ -23,20 +23,20 @@ export default function NinjaTrader() {
           </p>
           <ul className="mb-8">
             <li className="flex items-center mb-2 gap-1">
-              <CheckIcon color="rgb(34 197 94)" width={20} height={20} />
+              <CheckCircleIcon width={20} height={20} />
               24/7 Uptime
             </li>
             <li className="flex items-center mb-2 gap-1">
-              <CheckIcon color="rgb(34 197 94)" width={20} height={20} />
+              <CheckCircleIcon width={20} height={20} />
               Free Around-The-Clock Tech Support
             </li>
             <li className="flex items-center gap-1">
-              <CheckIcon color="rgb(34 197 94)" width={20} height={20} />
-              Optimized for NinjaTrader
+              <CheckCircleIcon width={20} height={20} />\ Optimized for
+              NinjaTrader
             </li>
           </ul>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-white text-black px-6 py-2 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
+            <button className="bg-black text-white px-6 py-2 border border-primary rounded-lg font-semibold  transition duration-300">
               NinjaTrader VPS
             </button>
             <button className="bg-primary/80 text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary transition duration-300">

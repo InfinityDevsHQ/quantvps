@@ -60,7 +60,7 @@ const FAQs = () => {
       <div className="mx-auto w-full">
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl md:max-w-5xl lg:max-w-7xl">
-            <div className="bg-neutral-900 text-white p-4 md:p-6 rounded-lg grid md:grid-cols-2">
+            <div className="bg-neutral-900 text-white border border-white p-4 md:p-6 rounded-[36px] grid md:grid-cols-2">
               <div>
                 <h2 className="text-2xl md:text-4xl font-semibold mb-3 md:mb-6 md:ml-3 tracking-wider">
                   FAQ
