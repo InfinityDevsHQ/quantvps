@@ -1,4 +1,5 @@
-import { CheckIcon } from "@heroicons/react/20/solid"
+import { CheckCircleIcon } from "@heroicons/react/24/outline"
+import Image from "next/image"
 import React from "react"
 
 export default function NinjaTrader() {
@@ -22,20 +23,20 @@ export default function NinjaTrader() {
           </p>
           <ul className="mb-8">
             <li className="flex items-center mb-2 gap-1">
-              <CheckIcon color="rgb(34 197 94)" width={20} height={20} />
+              <CheckCircleIcon width={20} height={20} />
               24/7 Uptime
             </li>
             <li className="flex items-center mb-2 gap-1">
-              <CheckIcon color="rgb(34 197 94)" width={20} height={20} />
+              <CheckCircleIcon width={20} height={20} />
               Free Around-The-Clock Tech Support
             </li>
             <li className="flex items-center gap-1">
-              <CheckIcon color="rgb(34 197 94)" width={20} height={20} />
+              <CheckCircleIcon width={20} height={20} />
               Optimized for NinjaTrader
             </li>
           </ul>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-white text-black px-6 py-2 rounded-lg font-semibold hover:bg-gray-200 transition duration-300">
+            <button className="bg-black text-white px-6 py-2 border border-primary rounded-lg font-semibold  transition duration-300">
               NinjaTrader VPS
             </button>
             <button className="bg-primary/80 text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary transition duration-300">
@@ -43,9 +44,18 @@ export default function NinjaTrader() {
             </button>
           </div>
         </div>
-        <h2 className="text-2xl md:text-3xl lg:text-5xl tracking-wide text-orange-500 font-bold mb-6 hidden md:block">
+        {/* <h2 className="text-2xl md:text-3xl lg:text-5xl tracking-wide text-orange-500 font-bold mb-6 hidden md:block">
           NINJATRADER
-        </h2>
+        </h2> */}
+        <div className="absolute right-0 md:right-0 top-6 lg:top-28 mb-6">
+          <Image
+            className="w-full h-6 md:h-8 xl:h-10"
+            src="/ninjattrader-logo.png"
+            alt="NinjaTrader Logo"
+            width={300}
+            height={100}
+          />
+        </div>
       </div>
     </div>
   )

@@ -4,7 +4,7 @@ import React from "react"
 
 export default function TestimonialsTop() {
   return (
-    <div className="mx-auto space-y-4 lg:block pt-1 overflow-hidden">
+    <div className="mx-auto space-y-4 md:block pt-1 overflow-hidden hidden opacity-90">
       <div className="flex gap-4 justify-evenly">
         <div className="highlight-card flex items-center gap-2 whitespace-nowrap rounded-lg border border-black/5 bg-black/5 py-1 pl-2 pr-3 font-bold text-card-foreground shadow">
           <Image
@@ -23,11 +23,11 @@ export default function TestimonialsTop() {
             </div>
             <div className="flex items-center gap-1 text-xs font-bold text-card-foreground">
               <div className="flex items-center">
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
               </div>
               Founder at LocalPortal
             </div>
@@ -51,11 +51,11 @@ export default function TestimonialsTop() {
             </div>
             <div className="flex items-center gap-1 text-xs font-bold text-card-foreground">
               <div className="flex items-center">
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
               </div>
               Founder at Galactic Crew
             </div>
@@ -79,11 +79,11 @@ export default function TestimonialsTop() {
             </div>
             <div className="flex items-center gap-1 text-xs font-bold text-card-foreground">
               <div className="flex items-center">
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
               </div>
               Founder at Talknotes
             </div>
@@ -107,11 +107,11 @@ export default function TestimonialsTop() {
             </div>
             <div className="flex items-center gap-1 text-xs font-bold text-card-foreground">
               <div className="flex items-center">
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
-                <StarIcon width={16} height={16} color="yellow" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
+                <StarIcon width={16} height={16} color="#eab308" />
               </div>
               Founder
             </div>

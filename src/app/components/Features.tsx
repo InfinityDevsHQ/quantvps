@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Features() {
   const FeatureCard = ({ icon, title, description }: any) => (
-    <div className="bg-neutral-900 p-4 md:py-6 rounded-lg shadow-lg flex flex-col md:flex-row justify-center items-center border-[1px] border-white">
+    <div className="bg-[#262329] p-4 md:py-4 rounded-lg shadow-lg flex flex-col md:flex-row justify-center items-center border-[1px] border-white">
       <Image
         alt="feature-icon"
         src={icon}

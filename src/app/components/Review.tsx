@@ -8,18 +8,18 @@ import React from "react"
 
 export default function Review() {
   return (
-    <div className="sm:px-8 mb-8 mt-16 lg:mb-16 lg:mt-32 bg-[url('/background-gradient.avif')] bg-contain bg-no-repeat bg-center">
-      <div className="mx-auto w-full max-w-7xl lg:px-8">
-        <div className="relative px-4 sm:px-8 lg:px-12">
-          <div className="mx-auto max-w-2xl lg:max-w-5xl">
+    <div className="sm:px-8 mb-8 mt-16 lg:mb-16 lg:mt-32">
+      <div className="mx-auto w-full max-w-7xl lg:px-8 ">
+        <div className="relative px-4 sm:px-8 lg:px-12 ">
+          <div className="mx-auto max-w-2xl lg:max-w-5xl bg-[url('/background-gradient.avif')] bg-contain bg-no-repeat bg-left">
             <div className="mx-auto max-w-4xl">
               <div className="flex flex-col items-start justify-center gap-10 lg:flex-row lg:gap-20">
                 <div className="relative w-full lg:w-1/2">
-                  <div className="sm:mt-16">
-                    <p className="py-2 text-center text-lg italic sm:-rotate-1 lg:pt-8">
+                  <div className="sm:mt-16 ">
+                    <p className="py-2 text-center text-lg sm:-rotate-1 lg:pt-8">
                       “The <b>fastest servers </b>for <b>NT8</b>”
                     </p>
-                    <div className="relative mx-auto rounded-xl border border-foreground/5 bg-foreground/5 p-1.5 sm:-rotate-1">
+                    <div className="relative mx-auto rounded-xl border border-foreground/5 bg-foreground/5 p-1.5 sm:-rotate-1 ">
                       <Image
                         className="w-full rounded-lg border border-foreground/10 shadow-md"
                         src="/review-image.png"
@@ -38,14 +38,14 @@ export default function Review() {
                         </div>
                       </div>
                       <div className="mb-1 flex">
-                        <StarIcon width={16} height={16} color="yellow" />
-                        <StarIcon width={16} height={16} color="yellow" />
-                        <StarIcon width={16} height={16} color="yellow" />
-                        <StarIcon width={16} height={16} color="yellow" />
-                        <StarIcon width={16} height={16} color="yellow" />
+                        <StarIcon width={16} height={16} color="#eab308" />
+                        <StarIcon width={16} height={16} color="#eab308" />
+                        <StarIcon width={16} height={16} color="#eab308" />
+                        <StarIcon width={16} height={16} color="#eab308" />
+                        <StarIcon width={16} height={16} color="#eab308" />
                       </div>
                     </div>
-                    <div className="space-y-1 rounded-lg bg-background/30 p-4 shadow relative z-10 sm:-rotate-1">
+                    <div className="space-y-1 backdrop-blur-[2px] rounded-lg p-4 shadow relative z-10 sm:-rotate-1">
                       <div className="flex items-center justify-between py-0.5">
                         <div className="flex flex-1 items-center gap-2 text-left">
                           <MagnifyingGlassIcon
@@ -114,7 +114,7 @@ export default function Review() {
                       </b>
                     </p>
 
-                    <div className="block rounded-xl border border-foreground/5 bg-foreground/5 p-4 text-sm font-medium backdrop-">
+                    <div className="block rounded-xl bg-[#1e1a26] p-4 text-sm font-medium ">
                       <b className="block text-lg">
                         We help traders focus on trading
                       </b>
