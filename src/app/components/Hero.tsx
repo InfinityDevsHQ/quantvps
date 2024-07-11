@@ -1,11 +1,21 @@
 import { CheckCircleIcon } from "@heroicons/react/24/outline"
+import Image from "next/image"
 import React from "react"
 
 export default function Hero() {
   return (
-    <div className="sm:px-8 relative -mt-14 pt-14 bg-[url('/background-gradient.avif')] bg-contain bg-no-repeat bg-center">
+    <div className="sm:px-8 bg-[url('/background-gradient.avif')] bg-contain bg-no-repeat bg-center">
       <div className="mx-auto w-full max-w-7xl lg:px-8">
         <div className="sm:px-8 relative pb-16 pt-16">
+          <div className="absolute right-0 md:right-0 top-6 mb-6">
+            <Image
+              className="w-full h-full lg:h-10"
+              src="/ninjattrader-logo.png"
+              alt="NinjaTrader Logo"
+              width={300}
+              height={100}
+            />
+          </div>
           <div className="mx-auto w-full max-w-7xl lg:px-8 ">
             <div className="relative px-4 sm:px-8 lg:px-12">
               <div className="mx-auto max-w-2xl lg:max-w-5xl">
