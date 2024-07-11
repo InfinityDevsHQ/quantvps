@@ -9,13 +9,22 @@ export default function Hero() {
         <div className="sm:px-8 relative pb-16 pt-16">
           <div className="absolute right-0 md:right-0 top-6 mb-6">
             <Image
-              className="w-full h-full lg:h-10"
+              className="w-full h-6 md:h-8 xl:h-10"
               src="/ninjattrader-logo.png"
               alt="NinjaTrader Logo"
               width={300}
               height={100}
             />
           </div>
+          {/* <div className="absolute right-0 md:right-0 top-6 lg:top-28 mb-6">
+          <Image
+            className="w-full h-6 md:h-8 xl:h-10"
+            src="/ninjattrader-logo.png"
+            alt="NinjaTrader Logo"
+            width={300}
+            height={100}
+          />
+        </div> */}
           <div className="mx-auto w-full max-w-7xl lg:px-8 ">
             <div className="relative px-4 sm:px-8 lg:px-12">
               <div className="mx-auto max-w-2xl lg:max-w-5xl">
