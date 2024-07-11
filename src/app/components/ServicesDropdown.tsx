@@ -67,12 +67,12 @@ export default function ServicesDropdown() {
   return (
     <div className="sm:px-8 mb-8 mt-16 lg:mb-16 lg:mt-32">
       <div className="mx-auto w-full max-w-7xl lg:px-8">
-        <div className="relative px-4 sm:px-8 lg:px-12">
+        <div className="relative px-4 sm:px-8 ">
           <div className="mx-auto max-w-2xl md:max-w-7xl xl:min-w-[1150px]">
             <h2 className="text-3xl md:text-4xl text-center font-semibold mb-6">
               Included In Your Service
             </h2>
-            <div className="flex flex-col justify-center items-stretch gap-10 lg:flex-row lg:gap-20">
+            <div className="flex flex-col justify-center items-stretch gap-10 lg:gap-20">
               <div className=" text-white md:p-4 lg:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 place-content-between gap-4 md:gap-8 lg:gap-10">
                   <div>

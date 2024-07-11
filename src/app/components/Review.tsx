@@ -16,7 +16,7 @@ export default function Review() {
               <div className="flex flex-col items-start justify-center gap-10 lg:flex-row lg:gap-20">
                 <div className="relative w-full lg:w-1/2">
                   <div className="sm:mt-16 ">
-                    <p className="py-2 text-center text-lg italic sm:-rotate-1 lg:pt-8">
+                    <p className="py-2 text-center text-lg sm:-rotate-1 lg:pt-8">
                       “The <b>fastest servers </b>for <b>NT8</b>”
                     </p>
                     <div className="relative mx-auto rounded-xl border border-foreground/5 bg-foreground/5 p-1.5 sm:-rotate-1 ">
@@ -114,7 +114,7 @@ export default function Review() {
                       </b>
                     </p>
 
-                    <div className="block rounded-xl border border-foreground/5 bg-foreground/5 p-4 text-sm font-medium backdrop-">
+                    <div className="block rounded-xl bg-[#1e1a26] p-4 text-sm font-medium ">
                       <b className="block text-lg">
                         We help traders focus on trading
                       </b>

@@ -31,8 +31,8 @@ export default function NinjaTrader() {
               Free Around-The-Clock Tech Support
             </li>
             <li className="flex items-center gap-1">
-              <CheckCircleIcon width={20} height={20} />\ Optimized for
-              NinjaTrader
+              <CheckCircleIcon width={20} height={20} />
+              Optimized for NinjaTrader
             </li>
           </ul>
           <div className="flex flex-wrap gap-4">
