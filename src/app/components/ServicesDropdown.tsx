@@ -77,7 +77,10 @@ export default function ServicesDropdown() {
                 <div className="grid grid-cols-1 md:grid-cols-2 place-content-between gap-4 md:gap-8 lg:gap-10">
                   <div className="md:min-w-[350px] lg:min-w-[550px]">
                     {features.slice(0, 6).map((feature) => (
-                      <div key={feature.title} className="mb-4">
+                      <div
+                        key={feature.title}
+                        className="mb-4 border-b border-white pb-4"
+                      >
                         <button
                           className="flex justify-between items-center w-full text-left"
                           onClick={() => toggleFeature(feature.title)}
@@ -112,7 +115,10 @@ export default function ServicesDropdown() {
                   </div>
                   <div className="md:min-w-[350px] lg:min-w-[550px]">
                     {features.slice(6).map((feature) => (
-                      <div key={feature.title} className="mb-4">
+                      <div
+                        key={feature.title}
+                        className="mb-4 border-b border-white pb-4"
+                      >
                         <button
                           className="flex justify-between items-center w-full text-left"
                           onClick={() => toggleFeature(feature.title)}
