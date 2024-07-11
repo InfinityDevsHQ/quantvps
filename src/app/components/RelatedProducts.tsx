@@ -10,7 +10,7 @@ export default function RelatedProducts() {
   ]
 
   return (
-    <div className="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
+    <div className=" py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
           Other Product Recommendations Related to NinjaTrader VPS
@@ -19,7 +19,7 @@ export default function RelatedProducts() {
           {products.map((product, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-sm px-4 py-8 text-center hover:bg-gray-700 transition duration-300"
+              className="bg-[#262329] rounded-sm px-4 py-8 text-center transition duration-300"
             >
               <p className="text-primary font-medium">{product}</p>
             </div>

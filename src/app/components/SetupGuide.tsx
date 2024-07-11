@@ -30,7 +30,7 @@ export default function SetupGuide() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {steps.map((step) => (
-            <div key={step.number} className="bg-neutral-900 rounded-lg p-6">
+            <div key={step.number} className="rounded-lg p-6">
               <h3 className="text-xl font-semibold text-white mb-2 underline underline-offset-4">
                 {step.number}. {step.title}
               </h3>

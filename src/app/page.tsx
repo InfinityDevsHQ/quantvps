@@ -15,7 +15,7 @@ import Navbar from "./components/Navbar"
 export default function Home() {
   return (
     <>
-      <main className="flex-auto">
+      <main className="flex-auto bg-[#120e1b]">
         <Navbar />
         <TestimonialsTop />
         <Hero />
