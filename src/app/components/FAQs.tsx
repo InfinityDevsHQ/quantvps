@@ -37,7 +37,7 @@ const faqData = [
   },
 ]
 
-const FAQItem = ({ question, answer }: Record<string, string>) => {
+const FAQItem = ({ question, answer }: any) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
